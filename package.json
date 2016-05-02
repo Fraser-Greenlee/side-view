@@ -2,7 +2,7 @@
 	"name": "side-view",
 	"title": "Sublime Text style scrollbar",
 	"description": "Replaces the scrollbar with a code preview similar to the one found in Sublime Text.",
-	"homepage": "https://github.com/Fraser-Greenlee/show-tabs/tree/master",
+	"homepage": "https://github.com/Fraser-Greenlee/side-view/tree/master",
 	"version": "0.0.1",
 	"author": "Fraser-Greenlee",
 	"license": "MIT",
