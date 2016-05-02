@@ -48,7 +48,8 @@ div#side-view-scrollbar {
 	position: absolute;
 	width: 100%;
 	margin-left: -1px;
-	height: 261px;
+	margin-top: -5px;
+	height: 264px;
 	background-color: rgba(0, 0, 0, 0.05);
 }
 .CodeMirror-vscrollbar {
