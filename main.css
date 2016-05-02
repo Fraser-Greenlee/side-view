@@ -1,0 +1,56 @@
+#ext-side-view {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 18%;
+	box-shadow: 0px -1px 4px rgba(0,0,0,0.2);
+	height: calc(100% - 26px);
+	background-color: whitesmoke;
+	overflow: scroll;
+}
+#ext-side-view .CodeMirror-vscrollbar {
+	display: none !important;
+}
+#ext-side-view .CodeMirror-hscrollbar {
+	display: none !important;
+}
+#ext-side-view .CodeMirror-scrollbar-filler {
+	display: none !important;
+}
+#ext-side-view .CodeMirror-gutter-filler {
+	display: none !important;
+}
+#ext-side-view .CodeMirror-scroll {
+	margin: 0px !important;
+	padding-bottom: 0px !important;
+	background-color: whitesmoke !important;
+}
+#ext-side-view .CodeMirror-sizer {
+	margin: 0px !important;
+	border: 0px !important;
+}
+#ext-side-view .CodeMirror-gutters {
+	display: none;
+}
+#ext-side-view pre {
+	margin: 0px;
+	border: none;
+	padding: 0px;
+	font-size: 3px;
+	line-height: 3px;
+	width: 188%;
+}
+#ext-side-view .cm-tab {
+	text-indent: 0px;
+	margin-right: 7px;
+}
+div#side-view-scrollbar {
+	position: absolute;
+	width: 100%;
+	margin-left: -1px;
+	height: 261px;
+	background-color: rgba(0, 0, 0, 0.05);
+}
+.CodeMirror-vscrollbar {
+	display: none !important;
+}
