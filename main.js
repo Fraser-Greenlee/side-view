@@ -106,8 +106,8 @@ define(function (require, exports, module) {
 
 
 
-	$('.main-view').append('<div id="ext-side-view"></div>');
-	$('.content').css('padding-right','calc('+ svWidth +'- 29px)');
+	$('#editor-holder').after('<div id="ext-side-view"></div>');
+	$('#editor-holder').css('width', 'calc(100% - ' + svWidth + ')'); // set the width rather than padding otherwise the cursor position will be offset when resizing a vertically-split editor
 
 	prefs.on("change", function(){
 		SetWidth();
@@ -116,7 +116,7 @@ define(function (require, exports, module) {
 	function SetWidth(){
 		var width =  prefs.get("width");
 		$('#ext-side-view').css('width', width);
-		$('.content').css('padding-right', 'calc('+ width +'- 29px)')
+		$('#editor-holder').css('width', 'calc(100% - ' + width + ')'); // set the width rather than padding otherwise the cursor position will be offset when resizing a vertically-split editor
 	}
 
 });
